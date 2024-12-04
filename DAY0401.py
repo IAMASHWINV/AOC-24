@@ -58,9 +58,4 @@ count = 0
 count+=vertical_count(ip_arr)
 count+= vertical_count(transposed_ip)
 count+=get_daigonal_count(ip)
-
-
-
-
-
-print(count)
+print(f" part a: {count}")
